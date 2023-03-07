@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 39_Listar las diferentes compañías en orden alfabético ascendentemente
 INSERT INTO `Usuarios` (`compania`) VALUES
 (AT&T),
 (AXEL),

@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 9_Contar el número de usuarios por nivel
 INSERT INTO `Usuarios` (`nivel`, `COUNT(*)`) VALUES
 (0, 6),
 (1, 4),

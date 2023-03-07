@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 32_Listar las diferentes compañías en orden alfabético descendentemente
 INSERT INTO `Usuarios` (`compania`) VALUES
 (UNEFON),
 (TELCEL),

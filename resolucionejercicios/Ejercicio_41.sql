@@ -45,6 +45,10 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+
+--Ejercicio 41_Mostrar el email de los usuarios que usan hotmail
 INSERT INTO `Usuarios` (`email`) VALUES
 ('luis@hotmail.com'),
 ('blas@hotmail.com'),

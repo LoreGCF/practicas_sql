@@ -45,6 +45,10 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+
+--Ejercicio 46_Listar el login y teléfono de los usuarios con compañía telefónica IUSACELL o UNEFON
 INSERT INTO `Usuarios` (`usuario`, `telefono`) VALUES
 ('BRE2271', '655-330-5736'),
 ('LUI7072', '655-100-8260'),

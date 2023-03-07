@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 07-03-2023 a las 21:12:41
+-- Tiempo de generación: 07-03-2023 a las 20:29:33
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.2.0
 
@@ -24,32 +24,36 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `provincias`
+-- Estructura de tabla para la tabla `p`
 --
 
-CREATE TABLE `provincias` (
+CREATE TABLE `p` (
   `codigo` tinyint(3) UNSIGNED NOT NULL,
   `nombre` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Volcado de datos para la tabla `provincias`
+-- Volcado de datos para la tabla `p`
 --
 
-INSERT INTO `provincias` (`nombre`) VALUES
-('Corrientes'),
-('Salta'),
-('Buenos Aires'),
-('Neuquen');
+
+
+
+--Ejercicio 1_¿Qué provincias no tenemos clientes?
+INSERT INTO `p` (`codigo`, `nombre`) VALUES
+(3, 'Corrientes'),
+(5, 'Salta'),
+(6, 'Buenos Aires'),
+(7, 'Neuquen');
 
 --
 -- Índices para tablas volcadas
 --
 
 --
--- Indices de la tabla `provincias`
+-- Indices de la tabla `p`
 --
-ALTER TABLE `provincias`
+ALTER TABLE `p`
   ADD PRIMARY KEY (`codigo`);
 
 --
@@ -57,9 +61,9 @@ ALTER TABLE `provincias`
 --
 
 --
--- AUTO_INCREMENT de la tabla `provincias`
+-- AUTO_INCREMENT de la tabla `p`
 --
-ALTER TABLE `provincias`
+ALTER TABLE `p`
   MODIFY `codigo` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 

@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 15_Listar el login y teléfono de los usuarios con compañía telefónica que no sea TELCEL
 INSERT INTO `Usuarios` (`usuario`, `telefono`) VALUES
 ('BRE2271', '655-330-5736'),
 ('JOS7086', '655-143-3922'),

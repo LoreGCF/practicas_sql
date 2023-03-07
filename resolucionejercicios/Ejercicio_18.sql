@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 18_>Mostrar el email de los usuarios que no usan yahoo
 INSERT INTO `Usuarios` (`email`) VALUES
 ('brenda@live.com'),
 ('oscar@gmail.com'),

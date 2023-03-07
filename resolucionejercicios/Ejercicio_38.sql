@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 38_Listar nombre y teléfono de los usuarios con teléfono que no sea de la marca LG
 INSERT INTO `Usuarios` (`nombre`, `telefono`) VALUES
 ('BRENDA', '655-330-5736'),
 ('JOSE', '655-143-3922'),

@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 1_ Listar los nombres de los usuarios 
 INSERT INTO `Usuarios` (`nombre`) VALUES
 ('BRENDA'),
 ('OSCAR'),

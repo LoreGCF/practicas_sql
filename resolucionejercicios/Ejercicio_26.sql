@@ -45,6 +45,8 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+--Ejercicio 26_Listar nombre y teléfono de los usuarios con teléfono que no sea de la marca BLACKBERRY
 INSERT INTO `Usuarios` (`nombre`, `telefono`) VALUES
 ('BRENDA', '655-330-5736'),
 ('OSCAR', '655-143-4181'),

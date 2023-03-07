@@ -45,6 +45,10 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+
+--Ejercicio 44_Listar las diferentes marcas de celular en orden alfabético ascendentemente
 INSERT INTO `Usuarios` (`marca`) VALUES
 (SONY),
 (SAMSUNG),

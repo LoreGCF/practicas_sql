@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 22_Listar las diferentes compañías en orden alfabético aleatorio
 INSERT INTO `Usuarios` (`compania`) VALUES
 (NEXTEL),
 (MOVISTAR),

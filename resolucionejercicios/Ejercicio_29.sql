@@ -45,6 +45,8 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+--Ejercicio 29_Listar el login de los usuarios con nivel 1
 INSERT INTO `Usuarios` (`usuario`) VALUES
 ('LUI7072'),
 ('JES4752'),

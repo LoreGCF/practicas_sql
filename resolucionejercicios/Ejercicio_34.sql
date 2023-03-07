@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 34_Listar los números de teléfono sin saldo
 INSERT INTO `Usuarios` (`telefono`) VALUES
 ('655-143-4181'),
 ('655-330-5514'),

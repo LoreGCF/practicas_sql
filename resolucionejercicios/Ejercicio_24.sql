@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 24_Calcular el saldo promedio de los usuarios que tienen teléfono marca LG
 INSERT INTO `Usuarios` (`AVG(saldo)`) VALUES
 (50);
 

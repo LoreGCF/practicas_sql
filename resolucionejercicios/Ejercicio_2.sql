@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 2_Calcular el saldo máximo de los usuarios de sexo “Mujer”
 INSERT INTO `Usuarios` (`MAX(saldo)`) VALUES
 (500);
 

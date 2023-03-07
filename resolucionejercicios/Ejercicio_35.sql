@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 35_Calcular el saldo mínimo de los usuarios de sexo “Hombre”
 INSERT INTO `Usuarios` (`MIN(saldo)`) VALUES
 (0);
 

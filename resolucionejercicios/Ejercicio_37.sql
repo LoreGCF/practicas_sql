@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 37_Contar el número de usuarios por marca de teléfono
 INSERT INTO `Usuarios` (`marca`, `COUNT(*)`) VALUES
 (BLACKBERRY, 4),
 (LG, 3),

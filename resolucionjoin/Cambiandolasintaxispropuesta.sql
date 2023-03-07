@@ -37,8 +37,12 @@ CREATE TABLE `p` (
 --
 
 
-
-
+--Cambie la sintaxix propuesta para el ejercicio
+--SELECT provincias.codigo, provincias.nombre
+--FROM provincias
+--LEFT JOIN clientes
+--ON clientes.codigoprovincia=provincias.codigo
+--WHERE clientes.codigoprovincia IS null;
 --¿Qué provincias tienen clientes?
 INSERT INTO `p` (`codigo`, `nombre`) VALUES
 (3, 'Corrientes'),

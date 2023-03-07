@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 36_Listar los números de teléfono con saldo mayor a 300
 INSERT INTO `Usuarios` (`telefono`) VALUES
 ('655-143-6861'),
 ('655-145-9938'),

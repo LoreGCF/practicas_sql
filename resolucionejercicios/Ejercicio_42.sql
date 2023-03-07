@@ -45,6 +45,10 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+
+--Ejercicio 42_Listar los nombres de los usuarios sin saldo o inactivos
 INSERT INTO `Usuarios` (`nombre`) VALUES
 ('OSCAR'),
 ('LUIS'),

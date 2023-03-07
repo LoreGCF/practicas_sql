@@ -45,6 +45,8 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+--Ejercicio 33_Listar el login de los usuarios inactivos
 INSERT INTO `Usuarios` (`usuario`) VALUES
 ('LUI7072'),
 ('DIA6570'),

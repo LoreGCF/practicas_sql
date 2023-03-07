@@ -45,6 +45,8 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+--Ejercicio 30_Contar el número de usuarios por sexo
 INSERT INTO `Usuarios` (`sexo`, `COUNT(*)`) VALUES
 (H, 12),
 (M, 9);

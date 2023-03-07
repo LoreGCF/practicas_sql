@@ -45,6 +45,10 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+
+--Ejercicio 8_Contar el número de usuarios por compañía telefónica
 INSERT INTO `Usuarios` (`compania`, `COUNT(*)`) VALUES
 (AT&T, 2),
 (AXEL, 2),

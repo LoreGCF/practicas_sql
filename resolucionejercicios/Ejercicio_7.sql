@@ -45,6 +45,10 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+
+--Ejercicio 7_Calcular la suma de los saldos de los usuarios de la compañía telefónica NEXTEL
 INSERT INTO `Usuarios` (`SUM(saldo)`) VALUES
 (150);
 

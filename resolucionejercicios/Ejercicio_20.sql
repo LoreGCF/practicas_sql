@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 20_Listar el login y teléfono de los usuarios con compañía telefónica UNEFON
 INSERT INTO `Usuarios` (`usuario`, `telefono`) VALUES
 ('DAN2832', '655-145-2586'),
 ('BLA9739', '655-330-3871'),

@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 12_Listar nombre y teléfono de los usuarios con teléfono LG, SAMSUNG o MOTOROLA
 INSERT INTO `Usuarios` (`nombre`, `telefono`) VALUES
 ('BRENDA', '655-330-5736'),
 ('OSCAR', '655-143-4181'),

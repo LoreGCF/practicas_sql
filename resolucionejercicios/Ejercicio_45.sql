@@ -45,6 +45,9 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+
+--Ejercicio 45_Listar las diferentes marcas de celular en orden alfabético aleatorio
 INSERT INTO `Usuarios` (`marca`) VALUES
 (MOTOROLA),
 (BLACKBERRY),

@@ -45,6 +45,8 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `Usuarios`
 --
 
+
+--Ejercicio 4_Contar los usuarios sin saldo o inactivos
 INSERT INTO `Usuarios` (`COUNT(*)`) VALUES
 (7);
 
